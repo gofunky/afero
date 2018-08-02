@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/spf13/afero"
+	"github.com/gofunky/afero"
 )
 
 type File struct {
@@ -84,10 +84,10 @@ func (f *File) Seek(offset int64, whence int) (int64, error) {
 		return 0, afero.ErrFileClosed
 	}
 	switch whence {
-	case os.SEEK_SET:
-	case os.SEEK_CUR:
+	case io.SeekStart:
+	case io.SeekCurrent:
 		offset += f.offset
-	case os.SEEK_END:
+	case io.SeekEnd:
 		offset += int64(f.zipfile.UncompressedSize64)
 	default:
 		return 0, syscall.EINVAL
@@ -139,7 +139,7 @@ func (f *File) Readdirnames(count int) (names []string, err error) {
 	if err != nil {
 		return nil, err
 	}
-	for filename, _ := range zipfiles {
+	for filename := range zipfiles {
 		names = append(names, filename)
 		if count >= 0 && len(names) >= count {
 			break
