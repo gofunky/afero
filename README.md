@@ -3,7 +3,7 @@
 A FileSystem Abstraction System for Go
 
 [![Build Status](https://travis-ci.org/gofunky/afero.svg)](https://travis-ci.org/gofunky/afero)
-[![Build status](https://ci.appveyor.com/api/projects/status/github/gofunky/afero?branch=master&svg=true)](https://ci.appveyor.com/project/gofunky/afero) [![GoDoc](https://godoc.org/github.com/gofunky/afero?status.svg)](https://godoc.org/github.com/gofunky/afero)
+[![GoDoc](https://godoc.org/github.com/gofunky/afero?status.svg)](https://godoc.org/github.com/gofunky/afero)
 [![Go Report Card](https://goreportcard.com/badge/github.com/gofunky/afero)](https://goreportcard.com/report/github.com/gofunky/afero)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/e64fc666a8bc43c2b5fd5f5fa771156a)](https://www.codacy.com/app/gofunky/afero?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=gofunky/afero&amp;utm_campaign=Badge_Grade)
 
