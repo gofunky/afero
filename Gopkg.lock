@@ -57,12 +57,12 @@
   version = "v0.8.0"
 
 [[projects]]
-  digest = "1:be514ceacb578d4e548d9cc4e62e36bebe97606e223c27edd55909a2e30bbf98"
+  digest = "1:050bb7987e1f4e1717f542ef4212fe6d7f2c674934f3a17325e836524e2e1ac4"
   name = "github.com/pkg/sftp"
   packages = ["."]
   pruneopts = ""
-  revision = "6b9fa10dea25176501bd80eb8a45a46d2afc97ad"
-  version = "v1.8.1"
+  revision = "718e6477175d68cfcef67eb0a19ddcb74563a777"
+  version = "v1.8.2"
 
 [[projects]]
   branch = "master"
