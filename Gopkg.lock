@@ -174,7 +174,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:4354c871666c5c8f5836ca767bbe09809aa05eadb5dfa6ee7332e39ce461e8b4"
+  digest = "1:187723b430a7fae1f90310b79f8e59f798bea87fe0ffe587119284d8b8984973"
   name = "google.golang.org/api"
   packages = [
     "gensupport",
@@ -186,9 +186,10 @@
     "option",
     "storage/v1",
     "transport/http",
+    "transport/http/internal/propagation",
   ]
   pruneopts = ""
-  revision = "31ca0e01cd791f07750cb23fc99327721f753290"
+  revision = "5da02d31af7d15cc65a207f8a46a6e3c50d41178"
 
 [[projects]]
   digest = "1:c1771ca6060335f9768dff6558108bc5ef6c58506821ad43377ee23ff059e472"
