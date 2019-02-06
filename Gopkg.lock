@@ -2,7 +2,7 @@
 
 
 [[projects]]
-  digest = "1:5d7e1e707b8da800c440797e744834ad6024ad31ab3bad70fad7183f38d9d843"
+  digest = "1:2b10b9a545074605403d32baf9dda24b7582976ba7e9b46c4c7b9da9edac03e7"
   name = "cloud.google.com/go"
   packages = [
     "compute/metadata",
@@ -14,8 +14,8 @@
     "storage",
   ]
   pruneopts = ""
-  revision = "dfffe386c33fb24c34ee501e5723df5b97b98514"
-  version = "v0.30.0"
+  revision = "aad3f485ee528456e0768f20397b4d9dd941e755"
+  version = "v0.25.0"
 
 [[projects]]
   digest = "1:f958a1c137db276e52f0b50efee41a1a389dcdded59a69711f3e872757dab34b"
@@ -57,12 +57,12 @@
   version = "v0.8.0"
 
 [[projects]]
-  digest = "1:29b3112e2b8cc94f91a29ba2edd804f9fd18ff2d418e6e98da710ea8d401f4de"
+  digest = "1:c48aa0a105ff601a6ef792a9a15caae620aec59acac809b39ebd78da5a7c6e87"
   name = "github.com/pkg/sftp"
   packages = ["."]
   pruneopts = ""
-  revision = "08de04f133f27844173471167014e1a753655ac8"
-  version = "v1.8.3"
+  revision = "a713b07e6d90e1831d7fefcb69f1310edb3783ae"
+  version = "v1.10.0"
 
 [[projects]]
   branch = "master"
