@@ -2,7 +2,7 @@
 
 
 [[projects]]
-  digest = "1:5d7e1e707b8da800c440797e744834ad6024ad31ab3bad70fad7183f38d9d843"
+  digest = "1:2b10b9a545074605403d32baf9dda24b7582976ba7e9b46c4c7b9da9edac03e7"
   name = "cloud.google.com/go"
   packages = [
     "compute/metadata",
@@ -14,8 +14,8 @@
     "storage",
   ]
   pruneopts = ""
-  revision = "dfffe386c33fb24c34ee501e5723df5b97b98514"
-  version = "v0.30.0"
+  revision = "aad3f485ee528456e0768f20397b4d9dd941e755"
+  version = "v0.25.0"
 
 [[projects]]
   digest = "1:f958a1c137db276e52f0b50efee41a1a389dcdded59a69711f3e872757dab34b"
@@ -174,7 +174,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:2ae7d889b69fd62d2ba1e1705c087501aab1c8bd02c676dfd68acb85d45e07ec"
+  digest = "1:5da26cd5580705cdb4082571febd49693717070d6d3543926bd20b8093482b1c"
   name = "google.golang.org/api"
   packages = [
     "gensupport",
@@ -189,7 +189,7 @@
     "transport/http/internal/propagation",
   ]
   pruneopts = ""
-  revision = "c21459d81882ee61fcd6631fb94dbd9a29bd4377"
+  revision = "0cbcb99a9ea0c8023c794b2693cbe1def82ed4d7"
 
 [[projects]]
   digest = "1:c1771ca6060335f9768dff6558108bc5ef6c58506821ad43377ee23ff059e472"
