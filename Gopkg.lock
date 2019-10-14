@@ -2,7 +2,7 @@
 
 
 [[projects]]
-  digest = "1:5d7e1e707b8da800c440797e744834ad6024ad31ab3bad70fad7183f38d9d843"
+  digest = "1:2b10b9a545074605403d32baf9dda24b7582976ba7e9b46c4c7b9da9edac03e7"
   name = "cloud.google.com/go"
   packages = [
     "compute/metadata",
@@ -14,8 +14,8 @@
     "storage",
   ]
   pruneopts = ""
-  revision = "dfffe386c33fb24c34ee501e5723df5b97b98514"
-  version = "v0.30.0"
+  revision = "aad3f485ee528456e0768f20397b4d9dd941e755"
+  version = "v0.25.0"
 
 [[projects]]
   digest = "1:f958a1c137db276e52f0b50efee41a1a389dcdded59a69711f3e872757dab34b"
@@ -112,7 +112,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:3a3c1b660248c0ec25f00cfb9c6526bd5b0ede4c8bfa2ed56a3f5e7e9d0a19cd"
+  digest = "1:9775f16f1557e5a16a0c2d6a130488ca4e595916e2d55dd7fe819e60e2fcc1a5"
   name = "golang.org/x/net"
   packages = [
     "context",
@@ -125,7 +125,7 @@
     "trace",
   ]
   pruneopts = ""
-  revision = "146acd28ed5894421fb5aac80ca93bc1b1f46f87"
+  revision = "491137f692577e390404f177a0515c9f86f79754"
 
 [[projects]]
   branch = "master"
